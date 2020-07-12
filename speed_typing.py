@@ -50,7 +50,7 @@ def calculate(text,miss):
     else:
        return 100 - ((miss * 100) / text)
 
-c.addstr(0,0,"Ready? Press any key to start")
+c.addstr(0,0,"\nHow to play?\nWrite the text above you\n\n\nReady? Press any key to start")
 c.refresh()
 inpud = c.getch()
 
